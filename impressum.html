@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!-- [Stand: 2026-10-22 | Deckung: Rechnung] -->
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Impressum · Florian Holzer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="mail.js" defer></script>
+</head>
+<body class="page">
+
+  <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+  <label for="menu-toggle" class="menu-btn" aria-label="Menü">
+    <span class="menu-icon"></span>
+  </label>
+
+  <nav class="top-nav">
+    <a href="index.html">Home</a>
+    <a href="#" class="mail" data-user="florian" data-domain="holzer.re">E-Mail</a>
+    <a href="impressum.html">Impressum</a>
+    <a href="datenschutz.html">Datenschutz</a>
+  </nav>
+
+  <main class="container">
+    <h1>Impressum</h1>
+
+    <h2>Anbieter</h2>
+    <p>Florian Holzer</p>
+    <p class="todo">[Platzhalter: ladungsfähige Anschrift — Straße, PLZ Ort]</p>
+
+    <h2>Kontakt</h2>
+    <p>E-Mail: <a href="#" class="mail mail-show" data-user="florian" data-domain="holzer.re"></a></p>
+    <p class="todo">[Platzhalter: Telefon, falls gewünscht. Zu klären: ob die per CSS dargestellte Adresse als Pflichtangabe genügt — sonst hier im Klartext.]</p>
+  </main>
+
+  <footer class="imprint-bar">
+    <!-- TD: Jahreszahl statisch — jährlich von Hand anpassen (per JS ergänzbar, nicht eingebaut) -->
+    <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a> · &copy; 2026 Florian Holzer
+  </footer>
+
+</body>
+</html>

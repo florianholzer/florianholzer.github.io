@@ -1,14 +1,46 @@
-
-<html>
+<!DOCTYPE html>
+<!-- [Stand: 2026-10-22 | Deckung: Rechnung] -->
+<html lang="de">
 <head>
-<title>holzer.re</title>
-<meta name='copyright' content='Copyright 2012-2017. FLorian Holzer. All Rights Reserved.'>
-<meta name="robots" content="noindex, nofollow">
-<meta charset="utf-8">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Florian Holzer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="mail.js" defer></script>
 </head>
 <body>
-<p>new page coming soon</p>
-<p>last updated on 25 january 2017 by florian@holzer.re</p>
-<p><h2>freedom begins between the ears</h2></p>
+
+  <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+  <label for="menu-toggle" class="menu-btn" aria-label="Menü">
+    <span class="menu-icon"></span>
+  </label>
+
+  <nav class="top-nav">
+    <a href="index.html">Home</a>
+    <a href="#" class="mail" data-user="florian" data-domain="holzer.re">E-Mail</a>
+    <a href="impressum.html">Impressum</a>
+    <a href="datenschutz.html">Datenschutz</a>
+  </nav>
+
+  <main class="container">
+    <div class="portrait-wrapper">
+      <img src="portrait.jpg" alt="Porträt Florian Holzer" class="portrait" width="768" height="1024">
+    </div>
+
+    <div class="divider"></div>
+
+    <h1>Florian Holzer</h1>
+
+    <p class="contact">
+      <!-- Adresse nirgends im Klartext: Anzeige per CSS (.mail-show), mailto-Ziel per mail.js bei Interaktion -->
+      <a href="#" class="mail mail-show" data-user="florian" data-domain="holzer.re"></a>
+    </p>
+  </main>
+
+  <footer class="imprint-bar">
+    <!-- TD: Jahreszahl statisch — jährlich von Hand anpassen (per JS ergänzbar, nicht eingebaut) -->
+    <a href="impressum.html">Impressum</a> · <a href="datenschutz.html">Datenschutz</a> · &copy; 2026 Florian Holzer
+  </footer>
+
 </body>
 </html>
