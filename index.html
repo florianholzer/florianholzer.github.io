@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!-- [Stand: 2026-10-22 | Deckung: Rechnung] -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Florian Holzer</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a1a0f'/%3E%3Ctext x='32' y='43' text-anchor='middle' font-family='Georgia,serif' font-size='30' fill='%23c9b99a'%3EFH%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body>
+
+  <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+  <label for="menu-toggle" class="menu-btn" aria-label="Menu">
+    <span class="menu-icon"></span>
+  </label>
+
+  <nav class="top-nav">
+    <a href="index.html">Home</a>
+    <a href="#" class="mail" data-user="florian" data-domain="holzer.re">Email</a>
+    <a href="https://linkedin.com/in/holzerflorian" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="legal-notice.html">Legal Notice</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+
+  <main class="container">
+    <div class="portrait-wrapper">
+      <img src="portrait.jpg" alt="Portrait of Florian Holzer" class="portrait" width="768" height="1024">
+    </div>
+
+    <div class="divider"></div>
+
+    <h1>Florian Holzer</h1>
+    <p class="tagline">In love with renewable energies and open source software!</p>
+    <p class="bio">Computer scientist in energy technology for almost 15 years, managing partner at <a href="https://www.reuss.io" target="_blank" rel="noopener">Reuss Energie GmbH</a> for just as long. Also a keen cyclist, runner and programmer.</p>
+
+    <ul class="links">
+      <!-- Adresse nirgends im Klartext: Anzeige per CSS (.mail-show), mailto-Ziel per site.js bei Interaktion -->
+      <li><a href="#" class="mail mail-show" data-user="florian" data-domain="holzer.re"></a></li>
+      <li><a href="https://linkedin.com/in/holzerflorian" target="_blank" rel="noopener">LinkedIn</a></li>
+    </ul>
+  </main>
+
+  <footer class="imprint-bar">
+    <!-- Jahreszahl: statischer Wert ist Fallback ohne JS, site.js setzt das aktuelle Jahr -->
+    <a href="legal-notice.html">Legal Notice</a> · <a href="privacy.html">Privacy</a> · &copy; <span class="year">2026</span> Florian Holzer
+  </footer>
+
+</body>
+</html>
