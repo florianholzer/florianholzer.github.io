@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- [Stand: 2026-10-22 | Deckung: Rechnung] -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Florian Holzer</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="mail.js" defer></script>
+</head>
+<body>
+
+  <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+  <label for="menu-toggle" class="menu-btn" aria-label="Menu">
+    <span class="menu-icon"></span>
+  </label>
+
+  <nav class="top-nav">
+    <a href="index.html">Home</a>
+    <a href="#" class="mail" data-user="florian" data-domain="holzer.re">Email</a>
+    <a href="https://linkedin.com/in/holzerflorian" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="legal-notice.html">Legal Notice</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+
+  <main class="container">
+    <div class="portrait-wrapper">
+      <img src="portrait.jpg" alt="Portrait of Florian Holzer" class="portrait" width="768" height="1024">
+    </div>
+
+    <div class="divider"></div>
+
+    <h1>Florian Holzer</h1>
+    <p class="subtitle">Managing Director · Reuss Energie GmbH</p>
+    <p class="tagline">Passionate Process Designer</p>
+
+    <ul class="links">
+      <!-- Adresse nirgends im Klartext: Anzeige per CSS (.mail-show), mailto-Ziel per mail.js bei Interaktion -->
+      <li><a href="#" class="mail mail-show" data-user="florian" data-domain="holzer.re"></a></li>
+      <li><a href="https://linkedin.com/in/holzerflorian" target="_blank" rel="noopener">LinkedIn</a></li>
+    </ul>
+  </main>
+
+  <footer class="imprint-bar">
+    <!-- TD: Jahreszahl statisch — jährlich von Hand anpassen (per JS ergänzbar, nicht eingebaut) -->
+    <a href="legal-notice.html">Legal Notice</a> · <a href="privacy.html">Privacy</a> · &copy; 2026 Florian Holzer
+  </footer>
+
+</body>
+</html>
